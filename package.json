@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "help": "cowsay -h",
+    "cows": "cowsay -l",
+    "cowsay": "cowsay"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/RVCC-IDMX/cowsay-timcarroll761/issues"
   },
-  "homepage": "https://github.com/RVCC-IDMX/cowsay-timcarroll761#readme"
+  "homepage": "https://github.com/RVCC-IDMX/cowsay-timcarroll761#readme",
+  "dependencies": {
+    "cowsay": "^1.5.0"
+  }
 }
